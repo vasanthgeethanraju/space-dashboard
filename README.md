@@ -91,6 +91,7 @@ All four respect the active filters, so the user can drill down (e.g., "show me 
 - **Filters:** company dropdown, status dropdown, dual year sliders (min and max), free-text search across mission/rocket/site
 - **Sortable, paginated data table** (25 rows/page) with click-to-sort headers and a status pill column
 - **Dark mission-control aesthetic:** Fraunces serif for editorial headings, JetBrains Mono for telemetry-feel labels, cyan/amber/emerald accents on a near-black canvas with a subtle starfield
+- **Dark / Light theme toggle:** a persistent sun/moon button in the header switches between a near-black dark mode and a light indigo-tinted mode; the choice is saved to `localStorage` so it survives page reloads
 
 ---
 
@@ -112,3 +113,10 @@ All four respect the active filters, so the user can drill down (e.g., "show me 
 ├── postcss.config.js
 └── next.config.js
 ```
+
+---
+
+## AI assistance disclosure
+
+I used AI assistance (Claude) for the initial scaffold of this project — project setup, component structure, and chart wiring. The analysis logic, visualisation choices, and feature decisions are my own.
+
